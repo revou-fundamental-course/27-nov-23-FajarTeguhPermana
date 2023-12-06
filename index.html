@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katik</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Katik </h1>
+
+            <div class="menu">
+                <p>Menu</p>
+                <div class="button-menu">
+                    <div class="garis"></div>
+                    <div class="garis"></div>
+                    <div class="garis"></div>
+                </div>
+            </div>
+    </header>
+
+    <nav id="dropdown" class="effect1">
+        <div id="L_Segitiga"><p>Luas Segitiga</p></div>
+        <div id="K_Segitiga"><p>Keliling Segitiga</p></div>
+    </nav>
+
+    <section id="information">
+        <p id="keterangan">Katik Merupakan Web apps sederhana yang berfungsi menghitung untuk luas dan keliling segitiga.</p>
+        <img src="assets/Gambar-Segita.jpeg" alt="segitiga">
+        <div id="info">
+            <p id="rumus"><b>Rumus Luas Segitga Yaitu:</b><br>a = alas <br>t = tinggi <br>Luas = 1/2 x a x t</p>
+        </div>
+        
+    </section>
+
+    <section id="input">
+        <h2 id="title">Hitung Luas Segitiga</h2>
+        <form id="myForm">
+            <input type="number" placeholder="Masukan Alas" id="value1">
+            <input type="number" placeholder="Masukan Tinggi" id="value2">
+            <input type="number" placeholder="Masukan Sisi 3" id="value3" class="effect1">
+            <h4 id="hasil"></h4>
+            <button class="submit" type="button">Submit</button>
+            <button class="reset" type="button">Reset</button>
+        </form>
+    </section>
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
